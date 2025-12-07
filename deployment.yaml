@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: backend-container
-        image: kroune/tiktok-vibecode-backend:latest
+        image: kroune/tiktok-vibecode-backend:main
         imagePullPolicy: "Always"
         ports:
         - containerPort: 8080
